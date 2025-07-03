@@ -1,0 +1,48 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #1e2c22;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #3a5a40;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #588157;
+}
+.secundario {
+    background-color: #a3b18a;
+    color: #1e2c22;
+}
+.links, .servico {
+    margin-top: 20px;
+}
