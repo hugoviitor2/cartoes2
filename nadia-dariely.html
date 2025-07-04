@@ -5,6 +5,7 @@
     <title>Nádia Dariely | Enfermeira</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -16,7 +17,7 @@
         .card {
             text-align: center;
             width: 100%;
-            max-width: 400px;
+            max-width: 420px;
             background-color: white;
             border-radius: 0 0 30px 30px;
             overflow: hidden;
@@ -48,11 +49,17 @@
             color: #ddd;
             letter-spacing: 1px;
         }
+        .bio {
+            font-size: 14px;
+            color: #444;
+            padding: 20px;
+            margin-top: -20px;
+        }
         .icons {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-            padding: 30px 20px;
+            padding: 20px;
         }
         .icon-btn {
             background-color: #0b2c49;
@@ -72,13 +79,40 @@
         .icon-btn:hover {
             background-color: #17466e;
         }
+        .btn-block {
+            margin: 10px auto;
+            background-color: #0b2c49;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-block:hover {
+            background-color: #17466e;
+        }
+        .galeria {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .galeria img {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
         .footer {
             padding: 10px;
             font-size: 12px;
             color: #555;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="card">
@@ -87,11 +121,24 @@
             <div class="name">NÁDIA DARIELY</div>
             <div class="title">ENFERMEIRA</div>
         </div>
+
+        <p class="bio">Enfermeira dedicada, especializada em cuidados humanizados e atendimento domiciliar com empatia e profissionalismo.</p>
+
         <div class="icons">
             <a href="https://wa.me/5582991563387" class="icon-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.instagram.com/enfnadiadariely" class="icon-btn" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="tel:+5582991563387" class="icon-btn"><i class="fas fa-phone-alt"></i></a>
         </div>
+
+        <a href="contatos/nadia.vcf" class="btn-block" download>Salvar Contato</a>
+        <a href="https://wa.me/?text=https://hugoviitor2.github.io/cartoes2/nadia-dariely.html" class="btn-block" target="_blank">Encaminhar Cartão</a>
+
+        <div class="galeria">
+            <img src="img/nadia1.jpg" alt="galeria 1">
+            <img src="img/nadia2.jpg" alt="galeria 2">
+            <img src="img/nadia3.jpg" alt="galeria 3">
+        </div>
+
         <div class="footer">CLIQUE NOS ÍCONES PARA INTERAGIR</div>
     </div>
 </body>
